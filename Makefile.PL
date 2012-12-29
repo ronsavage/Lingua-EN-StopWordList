@@ -21,7 +21,7 @@ WriteMakefile
 	},
 	DISTNAME  => 'Lingua-EN-StopWordList',
 	NAME      => 'Lingua::EN::StopWordList',
-	LICENSE   => 'perl_5',
+	LICENSE   => 'artistic_2',
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
