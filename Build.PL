@@ -3,7 +3,7 @@ use Module::Build;
 Module::Build -> new
 (
 	module_name    => 'Lingua::EN::StopWordList',
-	license        => 'artistic',
+	license        => 'perl_5',
 	dist_abstract  => 'A sorted list of English stop words',
 	dist_author    => 'Ron Savage <ron@savage.net.au>',
 	build_requires =>
