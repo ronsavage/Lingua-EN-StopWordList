@@ -26,8 +26,8 @@ WriteMakefile
 	PREREQ_PM =>
 	{
 		strict     => 1.04,
-		Test::More => 0.96,
-		Test::Pod  => 1.44,
+		Test::Simple=> 0.96,
+		Test::Pod  => 1.45,
 		warnings   => 1.12,
 	},
 	VERSION_FROM => 'lib/Lingua/EN/StopWordList.pm',
