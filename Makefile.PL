@@ -27,7 +27,7 @@ WriteMakefile
 	{
 		strict     => 1.04,
 		Test::More=> 0.96,
-		Test::Pod  => 1.45,
+#		Test::Pod  => 1.45, # Make it optional. See t/pod.t
 		warnings   => 1.12,
 	},
 	VERSION_FROM => 'lib/Lingua/EN/StopWordList.pm',
