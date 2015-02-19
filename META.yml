@@ -3,24 +3,23 @@ abstract: 'A sorted list of English stop words'
 author:
   - 'Ron Savage <ron@savage.net.au>'
 build_requires:
-  Test::More: 0.96
-  Test::Pod: 1.44
+  Test::More: '0.96'
 configure_requires:
-  Module::Build: 0.38
+  Module::Build: '0.38'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630'
-license: artistic
+generated_by: 'Module::Build version 0.4211, CPAN::Meta::Converter version 2.142060'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: Lingua-EN-StopWordList
 provides:
   Lingua::EN::StopWordList:
     file: lib/Lingua/EN/StopWordList.pm
-    version: 1.00
+    version: '1.01'
 requires:
-  strict: 1.04
-  warnings: 1.12
+  strict: '1.04'
+  warnings: '1.12'
 resources:
-  license: http://www.perlfoundation.org/artistic_license_1_0
-version: 1.00
+  license: http://www.perlfoundation.org/artistic_license_2_0
+version: '1.01'
