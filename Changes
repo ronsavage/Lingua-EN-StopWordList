@@ -1,4 +1,7 @@
 Revision history for Perl extension Lingua::EN::StopWordList.
 
+1.01  Wed Feb 18 16:32:00 2015
+	- Rename CHANGES to Changes as perl CPAN::Spec::Changes.
+
 1.00  Wed Aug  2 11:51:00 2012
 	- Original version
