@@ -1,5 +1,7 @@
 use ExtUtils::MakeMaker;
 
+# ----------------
+
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 
@@ -9,7 +11,7 @@ WriteMakefile
 	(
 		AUTHOR   => 'Ron Savage (ron@savage.net.au)',
 		ABSTRACT => 'A sorted list of English stop words',
-    ) : (),
+		) : (),
 	clean =>
 	{
 		FILES => 'blib/* Makefile MANIFEST Lingua-EN-StopWordList-*'
@@ -25,10 +27,10 @@ WriteMakefile
 	PL_FILES  => {},
 	PREREQ_PM =>
 	{
-		strict     => 1.04,
-		Test::More=> 0.96,
-#		Test::Pod  => 1.45, # Make it optional. See t/pod.t
-		warnings   => 1.12,
+		'strict' => 1.04,
+		'Test::More' => 1.001014,
+		'Test::Pod' => 1.48,
+		'warnings' => 1.12,
 	},
 	VERSION_FROM => 'lib/Lingua/EN/StopWordList.pm',
 );
