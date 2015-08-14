@@ -9,5 +9,6 @@ MANIFEST			This list of files
 META.json
 META.yml
 README
+scripts/pod2html.sh
 t/load.t
 t/pod.t
