@@ -841,11 +841,15 @@ Email the author, or log a bug on RT:
 
 L<https://rt.cpan.org/Public/Dist/Display.html?Name=Lingua::EN::StopWordList>.
 
+=head1 Repository
+
+L<https://github.com/ronsavage/Lingua-EN-StopWordList.git>.
+
 =head1 Author
 
 C<Lingua::EN::StopWordList> was written by Ron Savage I<E<lt>ron@savage.net.auE<gt>> in 2012.
 
-Home page: L<http://savage.net.au/index.html>.
+Homepage: L<http://savage.net.au/index.html>.
 
 =head1 Copyright
 
