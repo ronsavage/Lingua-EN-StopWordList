@@ -843,6 +843,10 @@ This module includes a comparison of various stopword list modules.
 
 See L<http://savage.net.au/Perl-modules/html/stopwordlists.report.html>.
 
+L<Lingua::EN::StopWords>.
+
+L<Lingua::StopWords>.
+
 =head1 Support
 
 Email the author, or log a bug on RT:
