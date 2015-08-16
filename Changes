@@ -1,5 +1,9 @@
 Revision history for Perl extension Lingua::EN::StopWordList.
 
+1.02 Sub Aug 16 14:50:00 2015
+	- Add repo to Makefie.PL.
+	- Add Benchmark::Featureset::StopwordLists to See Also.
+
 1.01  Wed Feb 18 16:32:00 2015
 	- Rename CHANGES to Changes as per CPAN::Spec::Changes.
 	- Update licence to Artistic 2.

@@ -4,7 +4,7 @@ use 5.008;
 use strict;
 use warnings;
 
-our $VERSION = '1.01';
+our $VERSION = '1.02';
 
 # -----------------------------------------------
 
@@ -834,6 +834,14 @@ me, I will include your words in the next release.
 
 It all depends on whether you think this new list is somehow 'better' than the lists in pre-existing
 modules. I cannot make that decision on your behalf.
+
+=head1 See Also
+
+L<Benchmark::Featureset::StopwordLists>.
+
+This module includes a comparison of various stopword list modules.
+
+See L<http://savage.net.au/Perl-modules/html/stopwordlists.report.html>.
 
 =head1 Support
 
